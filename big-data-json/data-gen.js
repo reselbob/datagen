@@ -6,8 +6,6 @@ import path from 'path';
 
 const args = process.argv;
 
-console.log(args);
-
 let numberOfItems = 1000000;
 
 function isInt(value) {
@@ -44,7 +42,6 @@ fs.writeFile(jsonFileName, JSON.stringify(data), (err) => {
         throw err;
     }
 });
-
 
 
 const absolutePath = path.resolve( './', jsonFileName);
