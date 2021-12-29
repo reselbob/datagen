@@ -25,7 +25,6 @@ console.log(message);
 
 const data = [];
 
-
 for (let i = 0; i < numberOfItems; i++) {
     const user = {};
 
@@ -36,6 +35,7 @@ for (let i = 0; i < numberOfItems; i++) {
     user.dob = faker.date.between(new Date('1/1/1949'), new Date('12/31/1999'));
     data.push(user);
 }
+
 
 fs.writeFile(jsonFileName, JSON.stringify(data), (err) => {
     if (err) {
