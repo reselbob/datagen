@@ -1,0 +1,20 @@
+{
+  "name": "big-data-json",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A utility to generate a large dataset in JSON",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "author": "Bob Reselman <reselbob@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
