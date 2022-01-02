@@ -6,7 +6,9 @@ import path from 'path';
 
 const args = process.argv;
 
-let numberOfItems = 100000;
+const baseChunk = 100000;
+
+let numberOfItems = baseChunk;
 
 function isInt(value) {
     let x;
@@ -14,7 +16,7 @@ function isInt(value) {
   }
 
 if(process.argv[2] && isInt(process.argv[2])){
-    numberOfItems = process.argv[2] * 100000;
+    numberOfItems = process.argv[2] * baseChunk;
 }
 
 const jsonFileName = 'big-data.json';
