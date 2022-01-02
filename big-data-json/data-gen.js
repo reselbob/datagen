@@ -6,7 +6,7 @@ import path from 'path';
 
 const args = process.argv;
 
-let numberOfItems = 1000000;
+let numberOfItems = 100000;
 
 function isInt(value) {
     let x;

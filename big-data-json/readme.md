@@ -68,7 +68,7 @@ chmod +x data-gen.js
 
 # Your first run
 
-To create a file with 2 million JSON objects with random data, execute the following command
+To create a file with 2 hundred thousand JSON objects with random data, execute the following command
 
 ```
 ./data-gen.js 2
