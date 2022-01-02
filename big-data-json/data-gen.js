@@ -14,7 +14,7 @@ function isInt(value) {
   }
 
 if(process.argv[2] && isInt(process.argv[2])){
-    numberOfItems = process.argv[2] * 1000000;
+    numberOfItems = process.argv[2] * 100000;
 }
 
 const jsonFileName = 'big-data.json';
